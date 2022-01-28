@@ -1,0 +1,20 @@
+{
+  "name": "dmstr/yii2-flysystem-azure-file-system",
+  "description": "Yii2 Azure Filesystem Adapter for creocoder\\flysystem",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Elias Luhr",
+      "email": "e.luhr@herzogkommunikation.de"
+    }
+  ],
+  "require": {
+    "creocoder/yii2-flysystem": "^1.0",
+    "consilience/flysystem-azure-file-storage": "^0.1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "dmstr\\flysystem\\azureFileSystem\\": "src"
+    }
+  }
+}
